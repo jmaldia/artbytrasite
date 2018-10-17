@@ -1,4 +1,7 @@
 .App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
   text-align: center;
 }
 
@@ -30,3 +33,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/*----------------------*/
+/*----- START SIDEBAR -----*/
+/*----------------------*/
+
+/*----- START Sidebar -----*/
+.sidebar {
+  width: 35%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 100%;
+  padding: 20px;
+  border-right: 1px solid #cecece;
+}
+/*----- END Sidebar -----*/
+
+/*----- START Logo -----*/
+.logo {
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+}
+
+.logo img {
+  width: 100%;
+}
+/*----- END logo -----*/
+
+/*----- START Menu -----*/
+/*----- END Menu -----*/
+
+/*----- START Social -----*/
+/*----- END Social -----*/
+
+/*----- START Copyright -----*/
+/*----- END Copyright -----*/
+
+/*--------------------*/
+/*----- END SIDEBAR -----*/
+/*--------------------*/
+
+
+
+
+
+
+/*----------------------*/
+/*----- START MAIN -----*/
+/*----------------------*/
+
+/*----- START ImageList -----*/
+.image-list {
+  width: 65%;
+  min-width: 750px;
+  height: 100%;
+  padding: 20px;
+}
+/*----- END ImageList -----*/
+
+/*----- START Image -----*/
+/*----- END Image -----*/
+
+/*--------------------*/
+/*----- END MAIN -----*/
+/*--------------------*/
+
+

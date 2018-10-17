@@ -2,7 +2,10 @@ import React from 'react'
 
 const Copyright = props => {
     return (
-        <div>This is where the Copyright will be</div>
+        <div>
+            <p>Copyright 2018 Todd Ackerman</p>
+            <p>Made with ♥ by <a href="http://jonmaldia.com">Jon</a>.</p>
+        </div>
     )
 }
 

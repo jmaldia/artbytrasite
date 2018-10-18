@@ -1,3 +1,23 @@
+/*-------------------------*/
+/*----- START GLOBALS -----*/
+/*-------------------------*/
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Mali', cursive; 
+  color: #2d3436;
+}
+
+a {
+  text-decoration: none;
+}
+/*-----------------------*/
+/*----- END GLOBALS -----*/
+/*-----------------------*/
+
+
 .App {
   height: 100vh;
   width: 100%;
@@ -37,9 +57,9 @@
 
 
 
-/*----------------------*/
+/*-------------------------*/
 /*----- START SIDEBAR -----*/
-/*----------------------*/
+/*-------------------------*/
 
 /*----- START Sidebar -----*/
 .sidebar {
@@ -63,6 +83,19 @@
 /*----- END logo -----*/
 
 /*----- START Menu -----*/
+.menu {
+  padding: 20px;
+}
+
+.menu a {
+  margin: 10px;
+  color: #636e72;
+}
+
+.menu a:hover {
+  color: #2d3436;
+  text-decoration: underline;
+}
 /*----- END Menu -----*/
 
 /*----- START Social -----*/

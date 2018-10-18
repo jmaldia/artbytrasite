@@ -2,7 +2,10 @@ import React from 'react'
 
 const Menu = props => {
     return (
-        <div>This is where the Menu will be</div>
+        <div className="menu">
+            <a href="#" onclick="props.switchPage">Home</a>
+            <a href="#" onclick="props.switchPage">Contact</a>
+        </div>
     )
 }
 

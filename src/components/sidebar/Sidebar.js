@@ -8,7 +8,7 @@ const Sidebar = props => {
     return (
         <div className="sidebar" >
             <Logo />
-            <Menu />
+            <Menu switchMenu="props.switchMenu"/>
             <Social />
             <Copyright />    
         </div>

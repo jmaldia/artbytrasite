@@ -5,6 +5,17 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+
+    }
+    this.switchPage = this.switchPage.bind(this)
+  }
+
+  switchPage() {
+
+  }
   render() {
     return (
       <div className="App">

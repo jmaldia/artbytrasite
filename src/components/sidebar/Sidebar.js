@@ -7,7 +7,7 @@ const Sidebar = props => {
     return (
         <div className="sidebar" >
             <Logo />
-            <Menu switchMenu={props.switchPage}/>
+            <Menu switchPage={props.switchPage}/>
             <Footer />
         </div>
     )

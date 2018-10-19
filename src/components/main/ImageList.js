@@ -10,10 +10,16 @@ const ImageList = props => {
         { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
         { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" }
     ]
+
     return (
         <div className="image-list">
-            This is where the ImageList will be
-            <Image />
+            {
+                sampleArray.map(image => {
+                    return (
+                        <Image image={image}/>
+                    )
+                })
+            }
         </div>
     )
 }

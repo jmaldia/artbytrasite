@@ -10,6 +10,7 @@ class App extends Component {
     this.state = {
 
     }
+
     this.switchPage = this.switchPage.bind(this)
   }
 
@@ -19,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Sidebar />
+        <Sidebar switchPage={this.switchPage}/>
         <ImageList />
       </div>
     );

@@ -19,10 +19,10 @@ a {
 
 
 .App {
-  height: 100vh;
   width: 100%;
   display: flex;
   text-align: center;
+  height: 100vh;
 }
 
 
@@ -58,12 +58,16 @@ a {
   padding: 20px;
 }
 
-.menu a {
+.menu button {
+  background: transparent;
+  border: none;
   margin: 10px;
   color: #636e72;
+  outline: none;
+  cursor: pointer;
 }
 
-.menu a:hover {
+.menu button:hover {
   color: #2d3436;
   text-decoration: underline;
 }
@@ -152,8 +156,9 @@ a {
   align-content: flex-start;
   width: 100%;
   min-width: 750px;
-  height: 100%;
+  height: 100vh;
   padding: 20px;
+  overflow: scroll;
 }
 /*----- END ImageList -----*/
 

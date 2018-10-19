@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Menu = props => {
+    console.log(props) 
     return (
         <div className="menu">
-            <a href="#" onclick="props.switchPage">Home</a>
-            <a href="#" onclick="props.switchPage">Contact</a>
+            <button onClick={() => props.switchPage('home')}>Home</button>
+            <button onClick={() => props.switchPage('contact')}>Contact</button>
         </div>
     )
 }

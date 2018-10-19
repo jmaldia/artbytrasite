@@ -14,9 +14,9 @@ const ImageList = props => {
     return (
         <div className="image-list">
             {
-                sampleArray.map(image => {
+                sampleArray.map((image, index) => {
                     return (
-                        <Image image={image}/>
+                        <Image key={index} image={image}/>
                     )
                 })
             }

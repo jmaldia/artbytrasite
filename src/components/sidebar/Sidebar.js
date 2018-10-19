@@ -1,16 +1,14 @@
 import React from 'react'
 import Logo from './Logo'
 import Menu from './Menu'
-import Social from './Social'
-import Copyright from './Copyright'
+import Footer from './Footer'
 
 const Sidebar = props => {
     return (
         <div className="sidebar" >
             <Logo />
             <Menu switchMenu="props.switchMenu"/>
-            <Social />
-            <Copyright />    
+            <Footer />
         </div>
     )
 }

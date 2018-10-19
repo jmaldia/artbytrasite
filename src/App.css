@@ -63,10 +63,10 @@ a {
 
 /*----- START Sidebar -----*/
 .sidebar {
-  width: 35%;
-  min-width: 250px;
+  width: 300px;
+  min-width: 300px;
   max-width: 300px;
-  height: 100%;
+  height: 100vh;
   border-right: 1px solid #cecece;
 }
 /*----- END Sidebar -----*/
@@ -98,11 +98,66 @@ a {
 }
 /*----- END Menu -----*/
 
-/*----- START Social -----*/
-/*----- END Social -----*/
+/*----- START Footer -----*/
+.footer {
+  width: 300px;
+  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
 
-/*----- START Copyright -----*/
-/*----- END Copyright -----*/
+.fab {
+  width: 25px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+  /*----- START Social -----*/
+  .social {
+    text-align: center;
+  }
+
+  .fa-facebook:hover {
+    color: #2980b9;   
+  }
+
+  .fa-instagram:hover {    
+    color: #c0392b;
+  }
+
+  .fa-twitter-square:hover {
+    color: #2980b9;
+  }
+  /*----- END Social -----*/
+
+  /*----- START Copyright -----*/
+  .copyright p {
+    margin: 3px;
+    font-size: .75rem;
+  }
+
+  .fa-copyright {
+    font-size: .85rem;
+  }
+  
+  .fa-heart {
+    color: #c0392b;
+    font-size: .85rem;
+  }
+
+  #jon-maldia {
+    text-decoration: underline;
+    font-size: .75rem;
+  }
+
+  #jon-maldia:hover {
+    color:  #2980b9;
+  }
+  /*----- END Copyright -----*/
+
+/*----- END Footer -----*/
+
 
 /*--------------------*/
 /*----- END SIDEBAR -----*/

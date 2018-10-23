@@ -12,6 +12,7 @@ class App extends Component {
     }
 
     this.switchPage = this.switchPage.bind(this)
+    this.handleSubmitToMailchimp = this.handleSubmitToMailchimp.bind(this)
   }
 
   switchPage(page) {
@@ -22,12 +23,30 @@ class App extends Component {
       this.setState({ showImages: 'contact'})
     }
   }
+
+  handleSubmitToMailchimp(event) {
+    fetch("https://artbytra.us18.list-manage.com/subscribe/post?u=c06cc0149c6cd09190ed8e651&amp;id=b77563ae6b", {
+        method: 'post',
+        body : JSON.stringify({
+          EMAIL: event.target.value,
+          name: "b_c06cc0149c6cd09190ed8e651_b77563ae6b"
+        }),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      })
+      .catch(function(error) {
+        console.log("error---", error)
+      });
+  }
+
   render() {
     return (
       <div className="App">
         <Sidebar switchPage={this.switchPage}/>
         {
-          this.state.showImages === 'home' ? <ImageList /> : <Contact />
+          this.state.showImages === 'home' ? <ImageList /> : <Contact handleSubmitToMailchimp={this.handleSubmitToMailchimp}/>
         }
       </div>
     );

@@ -2,19 +2,25 @@ import React from 'react'
 import Image from './Image'
 
 const ImageList = props => {
-    const sampleArray = [
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" }
+    const images = [
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" },
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" },
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" },
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" },
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" },
+        { url: "../../images/art/art-01.jpg" },
+        { url: "../../images/art/art-02.jpg" }
     ]
 
     return (
         <div className="image-list">
             {
-                sampleArray.map((image, index) => {
+                images.map((image, index) => {
                     return (
                         <Image key={index} image={image}/>
                     )

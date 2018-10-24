@@ -2,19 +2,37 @@ import React from 'react'
 import Image from './Image'
 
 const ImageList = props => {
-    const sampleArray = [
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" },
-        { url: "https://imgplaceholder.com/320x320?text=Art+by+TRA" }
+    const images = [
+        { url: "http://jonmaldia.com/artbytra/art-01.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-02.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-03.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-04.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-05.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-06.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-01.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-02.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-03.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-04.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-05.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-06.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-01.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-02.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-03.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-04.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-05.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-06.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-01.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-02.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-03.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-04.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-05.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-06.jpg" }
     ]
 
     return (
         <div className="image-list">
             {
-                sampleArray.map((image, index) => {
+                images.map((image, index) => {
                     return (
                         <Image key={index} image={image}/>
                     )

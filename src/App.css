@@ -149,13 +149,16 @@ a {
 
 /*----- START ImageList -----*/
 .image-list {
-  display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-content: flex-start; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+  align-items: start;
   width: 100%;
-  min-width: 750px;
+  max-width: 1500px;
   height: 100vh;
   padding: 20px;
   overflow: scroll;
@@ -164,11 +167,12 @@ a {
 
 /*----- START Image -----*/
 .image {
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .image img {
   border-radius: 3px;
+  width: 100%;
 }
 /*----- END Image -----*/
 
@@ -176,4 +180,26 @@ a {
 /*----- END MAIN -----*/
 /*--------------------*/
 
+@media (max-width: 1200px) {
+  .image-list {grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+}
 
+@media (max-width: 1050px) {
+  .image-list {grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-list {grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .image-list {grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+}

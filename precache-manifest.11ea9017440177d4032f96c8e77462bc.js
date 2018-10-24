@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/artbytra/static/js/runtime~main.c39a9720.js"
   },
   {
-    "revision": "41a9b79010ee4551aa1e",
-    "url": "/artbytra/static/js/main.41a9b790.chunk.js"
+    "revision": "398fa27075595c98a232",
+    "url": "/artbytra/static/js/main.398fa270.chunk.js"
   },
   {
     "revision": "e1ada48e35de0e3b8be4",
     "url": "/artbytra/static/js/1.e1ada48e.chunk.js"
   },
   {
-    "revision": "41a9b79010ee4551aa1e",
+    "revision": "398fa27075595c98a232",
     "url": "/artbytra/static/css/main.163fbe83.chunk.css"
   },
   {
-    "revision": "21c9c85c88558616206ff79e30b84a00",
+    "revision": "b9ef652d9ec13701034c849f460e4b4f",
     "url": "/artbytra/index.html"
   }
 ];

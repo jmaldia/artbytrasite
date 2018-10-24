@@ -20,7 +20,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="Contact">
+            <div className="contact">
                 <div id="mc_embed_signup">
                 <form                                       
                     action="https://artbytra.us18.list-manage.com/subscribe/post?u=c06cc0149c6cd09190ed8e651&amp;id=b77563ae6b" 

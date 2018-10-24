@@ -147,38 +147,93 @@ a {
 /*----- START MAIN -----*/
 /*----------------------*/
 
-/*----- START ImageList -----*/
-.image-list {
-  /* flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start; */
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: min-content;
-  grid-gap: 20px;
-  align-items: start;
-  width: 100%;
-  max-width: 1500px;
-  height: 100vh;
-  padding: 20px;
-  overflow: scroll;
-}
-/*----- END ImageList -----*/
+  /*----- START ImageList -----*/
+  .image-list {
+    /* flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+    align-items: start;
+    width: 100%;
+    max-width: 1500px;
+    height: 100vh;
+    padding: 20px;
+    overflow: scroll;
+  }
+  /*----- END ImageList -----*/
 
-/*----- START Image -----*/
-.image {
-  /* margin: 10px; */
-}
 
-.image img {
-  border-radius: 3px;
-  width: 100%;
-}
-/*----- END Image -----*/
+  /*----- START Image -----*/
+  .image {
+    /* margin: 10px; */
+  }
+
+  .image img {
+    border-radius: 3px;
+    width: 100%;
+  }
+  /*----- END Image -----*/
+
+
+
+  /*----- START Email -----*/
+  .contact {
+    margin: 150px auto;
+    width: 600px; 
+    min-width: 450px;
+    text-align: left;
+  }
+
+  #mc_embed_signup h2 {
+    font-size: 1.8em; 
+  }
+
+  #mc_embed_signup .indicates-required {
+    text-align: left;
+    font-size: 11px;
+    margin-right: 4%;
+    color: #888;
+  }
+
+  #mc_embed_signup .button {
+    background-color: #27ae60;
+  }
+  /*----- END Email -----*/
+
+
+
+  /*----- START About -----*/
+  .about {
+    margin: 150px auto;
+    width: 600px; 
+    min-width: 450px;
+    text-align: left;
+  }
+
+  .about-p {
+    margin-bottom: 20px;
+    line-height: 170%;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  .about img {
+    text-align: left;
+  }
+  /*----- END About -----*/
 
 /*--------------------*/
 /*----- END MAIN -----*/
 /*--------------------*/
+
+
+
+
+
+
 
 @media (max-width: 1200px) {
   .image-list {grid-template-columns: repeat(4, 1fr);

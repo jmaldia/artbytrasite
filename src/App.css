@@ -93,17 +93,14 @@ a {
     text-align: center;
   }
 
-  .fa-facebook:hover {
-    color: #2980b9;   
-  }
-
   .fa-instagram:hover {    
     color: #c0392b;
   }
-
-  .fa-twitter-square:hover {
-    color: #2980b9;
+  
+  .fa-linkedin:hover {
+    color: #2980b9;   
   }
+
   /*----- END Social -----*/
 
   /*----- START Copyright -----*/

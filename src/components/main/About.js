@@ -4,8 +4,7 @@ const About = props => {
     return (
         <div className="about" >
             <p className="about-p">
-                Hello! Here you'll find almost a thousand creative works, made by Todd Ackerman.
-                Todd hails, proudly, from one of the most creative cities he knows... Toledo, Ohio. Home to the Mud Hens, Walleye hockey, and of course Marcos Pizza. Toledo artistically, is one of the most happening places!
+                Hello! Todd hails, proudly, from one of the most creative cities he knows... Toledo, Ohio. Home to the Mud Hens, Walleye hockey, and of course Marcos Pizza. Toledo artistically, is one of the most happening places!
                 He currently resides in Queens, NY where you might find him at various Green Bay Packers bars, or single-handedly trying to revive the Detroit Red Wings playoff appearance streak, octopus in one hand, drawing pens and paper in the other. 
             </p>
             <p className="about-p">

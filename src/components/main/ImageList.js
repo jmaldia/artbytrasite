@@ -16,7 +16,9 @@ const ImageList = props => {
         { url: "http://jonmaldia.com/artbytra/art-11.jpg" },
         { url: "http://jonmaldia.com/artbytra/art-12.jpg" },
         { url: "http://jonmaldia.com/artbytra/art-13.jpg" },
-        { url: "http://jonmaldia.com/artbytra/art-14.jpg" }
+        { url: "http://jonmaldia.com/artbytra/art-14.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-15.jpg" },
+        { url: "http://jonmaldia.com/artbytra/art-16.jpg" }
     ]
 
     return (

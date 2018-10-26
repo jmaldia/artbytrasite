@@ -3,7 +3,7 @@ import Contact from './Contact'
 
 const About = props => {
     return (
-        <div className="Info">
+        <div className="info">
         <div className="about" >
             <p className="about-p">
                 Hello! Todd R. Ackerman hails, proudly, from one of the most creative cities he knows... Toledo, Ohio. Home to the Mud Hens, Walleye hockey, and of course Marcos Pizza. Toledo artistically, is one of the most happening places!
@@ -20,7 +20,10 @@ const About = props => {
             <p className="about-p">
                 A rare photo of two Todds...
             </p>
-            <img src="http://www.fauxtoddgraphy.com/uploads/1/0/5/9/10598479/published/file-jul-27-9-45-42-pm.jpeg?1501432664" alt="The Tale of Two Todds"/>
+            <img  className="about-p" src="http://www.fauxtoddgraphy.com/uploads/1/0/5/9/10598479/published/file-jul-27-9-45-42-pm.jpeg?1501432664" alt="The Tale of Two Todds"/>
+
+            <p className="about-p">Check back often for new art! & feel free to email me directly at <a href="mailto:todda99@outlook.com">todda99@outlook.com</a> or scroll below to leave a message.</p>
+            <p className="about-p">Todd is currently seeking representation.</p>
         </div>
         <Contact />
         </div>

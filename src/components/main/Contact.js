@@ -7,15 +7,23 @@ class Contact extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            email: ''
+            name: '',
+            email: '',
+            message: ''
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleSubmit = (event) => {
-        console.log(event.target.value)
-        this.setState({ email: event.target.value })
+        console.log(event.target)
+        if (event.target.name === "NAME") {
+            this.setState({ name: event.target.value })
+        } else if (event.target.name === "EMAIL") {
+            this.setState({ email: event.target.value })
+        } else {
+            this.setState({ message: event.target.value })
+        }
     }
 
     render() {
@@ -37,17 +45,27 @@ class Contact extends Component {
                                 <span className="asterisk">*</span> indicates required
                             </div>
                             <div className="mc-field-group">
+                                <label htmlFor="mce-NAME">
+                                    Name  <span className="asterisk">*</span>
+                                </label>
+                                <input type="text" value={this.state.name} name="NAME" className="required" id="mce-NAME" onChange={(event) => this.handleSubmit(event) } ></input>
+
                                 <label htmlFor="mce-EMAIL">
                                     Email Address  <span className="asterisk">*</span>
                                 </label>
                                 <input type="email" value={this.state.email} name="EMAIL" className="required email" id="mce-EMAIL" onChange={(event) => this.handleSubmit(event) } ></input>
+
+                                <label htmlFor="mce-MESSAGE">
+                                    Message 
+                                </label>
+                                <input type="textarea" value={this.state.message} name="MESSAGE" className="" id="mce-MESSAGE" onChange={(event) => this.handleSubmit(event) } ></input>
                             </div>
                             <div id="mce-responses" className="clear">
                                 <div className="response" id="mce-error-response" style={{display: 'none'}}></div>
                                 <div className="response" id="mce-success-response" style={{display: 'none'}}></div>
                             </div>
                             <div className="clear">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"></input>
+                                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" className="button"></input>
                             </div>
                         </div>
                     </form>

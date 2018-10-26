@@ -178,7 +178,7 @@ a {
 
   /*----- START Email -----*/
   .contact {
-    margin: 150px auto;
+    margin: 50px auto;
     width: 600px; 
     min-width: 450px;
     text-align: left;
@@ -203,8 +203,14 @@ a {
 
 
   /*----- START About -----*/
-  .about {
+  .info {
     margin: 150px auto;
+    width: 100%; 
+    overflow: scroll;
+  }
+
+  .about {
+    margin: 0 auto;
     width: 600px; 
     min-width: 450px;
     text-align: left;

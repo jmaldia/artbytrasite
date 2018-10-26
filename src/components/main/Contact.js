@@ -58,7 +58,7 @@ class Contact extends Component {
                                 <label htmlFor="mce-MESSAGE">
                                     Message 
                                 </label>
-                                <input type="textarea" value={this.state.message} name="MESSAGE" className="" id="mce-MESSAGE" onChange={(event) => this.handleSubmit(event) } ></input>
+                                <textarea rows="5" value={this.state.message} name="MESSAGE" className="mc-message" id="mce-MESSAGE" onChange={(event) => this.handleSubmit(event) } ></textarea>
                             </div>
                             <div id="mce-responses" className="clear">
                                 <div className="response" id="mce-error-response" style={{display: 'none'}}></div>

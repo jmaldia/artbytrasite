@@ -32,7 +32,7 @@ class Contact extends Component {
                     noValidate
                 >
                         <div id="mc_embed_signup_scroll">
-                            <h2>Subscribe to our mailing list</h2>
+                            <h2>Leave a message</h2>
                             <div className="indicates-required">
                                 <span className="asterisk">*</span> indicates required
                             </div>

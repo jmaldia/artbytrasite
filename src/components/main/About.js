@@ -1,10 +1,12 @@
 import React from 'react'
+import Contact from './Contact'
 
 const About = props => {
     return (
+        <div className="Info">
         <div className="about" >
             <p className="about-p">
-                Hello! Todd hails, proudly, from one of the most creative cities he knows... Toledo, Ohio. Home to the Mud Hens, Walleye hockey, and of course Marcos Pizza. Toledo artistically, is one of the most happening places!
+                Hello! Todd R. Ackerman hails, proudly, from one of the most creative cities he knows... Toledo, Ohio. Home to the Mud Hens, Walleye hockey, and of course Marcos Pizza. Toledo artistically, is one of the most happening places!
                 He currently resides in Queens, NY where you might find him at various Green Bay Packers bars, or single-handedly trying to revive the Detroit Red Wings playoff appearance streak, octopus in one hand, drawing pens and paper in the other. 
             </p>
             <p className="about-p">
@@ -19,6 +21,8 @@ const About = props => {
                 A rare photo of two Todds...
             </p>
             <img src="http://www.fauxtoddgraphy.com/uploads/1/0/5/9/10598479/published/file-jul-27-9-45-42-pm.jpeg?1501432664" alt="The Tale of Two Todds"/>
+        </div>
+        <Contact />
         </div>
     )
 }

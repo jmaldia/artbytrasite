@@ -280,6 +280,10 @@ a {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
   }
+
+  .logo img {
+    width: 60%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -296,10 +300,6 @@ a {
     border-right: none;
     position: fixed;
     background-color: #fff;
-  }
-
-  .logo img {
-    width: 30%;
   }
 
   .menu {

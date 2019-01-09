@@ -1,7 +1,7 @@
 {
   "main.css": "/artbytra/static/css/main.43a5e2a8.chunk.css",
-  "main.js": "/artbytra/static/js/main.3b19c5a2.chunk.js",
-  "main.js.map": "/artbytra/static/js/main.3b19c5a2.chunk.js.map",
+  "main.js": "/artbytra/static/js/main.3e0fcfea.chunk.js",
+  "main.js.map": "/artbytra/static/js/main.3e0fcfea.chunk.js.map",
   "static/js/1.fd97677c.chunk.js": "/artbytra/static/js/1.fd97677c.chunk.js",
   "static/js/1.fd97677c.chunk.js.map": "/artbytra/static/js/1.fd97677c.chunk.js.map",
   "runtime~main.js": "/artbytra/static/js/runtime~main.c39a9720.js",
@@ -9,6 +9,6 @@
   "static/media/logo.jpg": "/artbytra/static/media/logo.588d3a7b.jpg",
   "static/css/main.43a5e2a8.chunk.css.map": "/artbytra/static/css/main.43a5e2a8.chunk.css.map",
   "index.html": "/artbytra/index.html",
-  "precache-manifest.113b99974f2ecab81f2bb2584c1d080e.js": "/artbytra/precache-manifest.113b99974f2ecab81f2bb2584c1d080e.js",
+  "precache-manifest.aba3a4912a4e6913d06f1eea0e1eda31.js": "/artbytra/precache-manifest.aba3a4912a4e6913d06f1eea0e1eda31.js",
   "service-worker.js": "/artbytra/service-worker.js"
 }

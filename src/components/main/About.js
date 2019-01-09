@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from './Contact'
+// import Contact from './Contact'
 
 const About = props => {
     return (
@@ -25,9 +25,11 @@ const About = props => {
                 <p className="about-p">Check back often for new art! & feel free to email me directly at <a href="mailto:todda99@outlook.com">todda99@outlook.com</a> or scroll below to leave a message.</p>
                 <p className="about-p">Todd is currently seeking representation.</p>
             </div>
-            <Contact />
+            
         </div>
     )
 }
 
 export default About
+
+// <Contact />

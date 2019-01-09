@@ -1,14 +1,14 @@
 {
-  "main.css": "/artbytra/static/css/main.43a5e2a8.chunk.css",
-  "main.js": "/artbytra/static/js/main.3e0fcfea.chunk.js",
-  "main.js.map": "/artbytra/static/js/main.3e0fcfea.chunk.js.map",
-  "static/js/1.fd97677c.chunk.js": "/artbytra/static/js/1.fd97677c.chunk.js",
-  "static/js/1.fd97677c.chunk.js.map": "/artbytra/static/js/1.fd97677c.chunk.js.map",
-  "runtime~main.js": "/artbytra/static/js/runtime~main.c39a9720.js",
-  "runtime~main.js.map": "/artbytra/static/js/runtime~main.c39a9720.js.map",
-  "static/media/logo.jpg": "/artbytra/static/media/logo.588d3a7b.jpg",
-  "static/css/main.43a5e2a8.chunk.css.map": "/artbytra/static/css/main.43a5e2a8.chunk.css.map",
-  "index.html": "/artbytra/index.html",
-  "precache-manifest.aba3a4912a4e6913d06f1eea0e1eda31.js": "/artbytra/precache-manifest.aba3a4912a4e6913d06f1eea0e1eda31.js",
-  "service-worker.js": "/artbytra/service-worker.js"
+  "main.css": "/artbytrasite/static/css/main.43a5e2a8.chunk.css",
+  "main.js": "/artbytrasite/static/js/main.81e73367.chunk.js",
+  "main.js.map": "/artbytrasite/static/js/main.81e73367.chunk.js.map",
+  "static/js/1.fd97677c.chunk.js": "/artbytrasite/static/js/1.fd97677c.chunk.js",
+  "static/js/1.fd97677c.chunk.js.map": "/artbytrasite/static/js/1.fd97677c.chunk.js.map",
+  "runtime~main.js": "/artbytrasite/static/js/runtime~main.3b52ad1b.js",
+  "runtime~main.js.map": "/artbytrasite/static/js/runtime~main.3b52ad1b.js.map",
+  "static/media/logo.jpg": "/artbytrasite/static/media/logo.588d3a7b.jpg",
+  "static/css/main.43a5e2a8.chunk.css.map": "/artbytrasite/static/css/main.43a5e2a8.chunk.css.map",
+  "index.html": "/artbytrasite/index.html",
+  "precache-manifest.6bdfd3adbce7804825e9b4973bdcd489.js": "/artbytrasite/precache-manifest.6bdfd3adbce7804825e9b4973bdcd489.js",
+  "service-worker.js": "/artbytrasite/service-worker.js"
 }

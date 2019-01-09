@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/artbytra/precache-manifest.aba3a4912a4e6913d06f1eea0e1eda31.js"
+  "/artbytrasite/precache-manifest.6bdfd3adbce7804825e9b4973bdcd489.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/artbytra/index.html", {
+workbox.routing.registerNavigationRoute("/artbytrasite/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
